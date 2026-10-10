@@ -1,19 +1,57 @@
-# React + Vite
+# Mini User Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application built with Vite to practice React Router, dynamic routing, and user navigation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Navigate between Home, About, and Users pages.
+* View a list of users.
+* Click a user's name to view their details.
+* Use dynamic routes with URL parameters.
+* Handle invalid user IDs with a "User Not Found" message.
+* Navigate back or return to the users list.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* React
+* JavaScript (ES6+)
+* React Router
+* Vite
+* HTML and CSS
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Getting Started
 
-## Expanding the ESLint configuration
+Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/sirk2040/mini-user-dashboard.git
+cd mini-user-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## What I Practiced
+
+* `BrowserRouter`, `Routes`, and `Route`
+* `Link` and `useNavigate()`
+* `useParams()` for dynamic routes
+* Array methods: `map()` and `find()`
+* Conditional rendering with a ternary operator
+
+## Author
+
+[Krishna Shrestha](https://github.com/sirk2040)
+
+---
+
+Built as part of my React learning journey.
