@@ -3,6 +3,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Users from "./Components/Users";
 import UserList from "./Components/UserList";
+import "./App.css";
 const App = () => {
   return (
     <div>

@@ -1,0 +1,76 @@
+/* General layout */
+#root {
+  max-width: 100%;
+  margin: 0 auto; /* centers the content horizontally. */
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #242020;
+  text-align: left;
+}
+
+body {
+  margin: 1auto;
+  background-color: #cae0e9;
+  border: 5px solid red;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #324a8b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  display: flex; /* //arranges the navigation links in a row by default. */
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #2563eb;
+  text-decoration: none; /* removes the default underline from links. */
+  font-weight: bold;
+}
+
+nav a:hover {
+  /* means when you move your mouse over an element. */
+  color: #233974;
+  text-decoration: underline;
+}
+
+/* Content */
+p,
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* User list */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+.go-back {
+  margin-bottom: 10px;
+}
